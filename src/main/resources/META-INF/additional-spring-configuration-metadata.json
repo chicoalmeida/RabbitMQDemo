@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "message.exchangeName",
+      "type": "java.lang.String",
+      "description": "Description for message.exchangeName."
+    },
+    {
+      "name": "message.queueName",
+      "type": "java.lang.String",
+      "description": "Description for message.queueName."
+    },
+    {
+      "name": "message.queueDlq",
+      "type": "java.lang.String",
+      "description": "Description for message.queueDlq."
+    },
+    {
+      "name": "message.routingKey",
+      "type": "java.lang.String",
+      "description": "Description for message.routingKey."
+    },
+    {
+      "name": "message.exchangeDlx",
+      "type": "java.lang.String",
+      "description": "Description for message.exchangeDlx."
+    },
+    {
+      "name": "message.deadLetterRoutingKey",
+      "type": "java.lang.String",
+      "description": "Description for message.deadLetterRoutingKey."
+    }
+  ]
+}

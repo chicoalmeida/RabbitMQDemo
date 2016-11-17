@@ -1,0 +1,28 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /
+    username: admin
+    password: secret
+message:
+  configs:
+    - queueName: fila1
+      queueDlq: fila1
+      routingKey: fila1
+      exchangeName: fila1
+      exchangeDlx: fila1
+      deadLetterRoutingKey: fila1
+    - queueName: fila2
+      queueDlq: fila2
+      routingKey: fila2
+      exchangeName: fila2
+      exchangeDlx: fila2
+      deadLetterRoutingKey: fila2
+amqp:
+  config:
+    initialInterval: 20
+    maxInterval: 40
+    multiplier: 1
+    retries: 1
+    consumers: 200
